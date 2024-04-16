@@ -1,0 +1,60 @@
+.navbar-expand-sm {
+  background-color: rgb(202, 200, 200);
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  padding: auto 5%;
+}
+/* nav */
+.anhChinh {
+  height: 300px;
+
+  background-image: url(anh/img1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+/* headingContent */
+.headingContent {
+  text-align: center;
+  margin: 10px 5%;
+}
+/* boxContent */
+.containerBox {
+  margin: 10px 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box1 {
+  width: 30%;
+  text-align: center;
+}
+/* ContainerTitle */
+.ContainerTitle {
+  margin: 10px 5%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.box2 {
+  width: 47%;
+}
+/* footer */
+.footer {
+  margin: 10px 5%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.itemf {
+  width: 30%;
+}
+@media screen and (max-width: 960px) {
+  .box1 {
+    width: 45%;
+  }
+}
